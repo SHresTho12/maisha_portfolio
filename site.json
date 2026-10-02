@@ -1,0 +1,33 @@
+{
+  "name": "[FULL NAME]",
+  "location": "Bogura, Bangladesh",
+  "intro": "I’m [FULL NAME], a BDS graduate with clinical experience in restorative dentistry, root canal treatment, paediatric dentistry and oral surgery.",
+  "profileImage": "",
+  "profileImageAlt": "Portrait of the dental practitioner",
+  "contact": {
+    "email": "",
+    "whatsapp": ""
+  },
+  "schedule": {
+    "timezone": "Asia/Dhaka",
+    "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "start": "17:00",
+    "end": "20:00",
+    "durationMinutes": 30
+  },
+  "reviews": [],
+  "comments": {
+    "enabled": false,
+    "repo": "",
+    "repoId": "",
+    "category": "Announcements",
+    "categoryId": "",
+    "language": "en"
+  }
+}

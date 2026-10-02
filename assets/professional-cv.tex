@@ -1,0 +1,103 @@
+% Compile with pdfLaTeX in Overleaf. Replace bracketed placeholders.
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=17mm]{geometry}
+\usepackage{xcolor,enumitem,tabularx,titlesec,fancyhdr,hyperref}
+\definecolor{navy}{HTML}{173B50}
+\hypersetup{hidelinks,pdftitle={Dental Curriculum Vitae}}
+\renewcommand{\familydefault}{\sfdefault}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[itemize]{leftmargin=14pt,itemsep=2pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries\color{navy}}{}{0pt}{}[\vspace{2pt}\titlerule]
+\titlespacing*{\section}{0pt}{11pt}{5pt}
+\pagestyle{fancy}\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\small\color{gray}Curriculum Vitae\enspace |\enspace\thepage}
+\newcommand{\role}[3]{\textbf{#1}\hfill {\small #2}\\#3}
+\newcommand{\skill}[2]{\textbf{#1}\\#2\par}
+\begin{document}
+{\Huge\bfseries\color{navy}[FULL NAME]}\\[6pt]
+{\large BDS Graduate\enspace |\enspace Dental Practitioner}\\[5pt]
+\textbf{Email:} [email address]\qquad\textbf{Phone:} [phone number]\\
+Bogura, Bangladesh
+
+\section{Professional Profile}
+BDS graduate from Rajshahi Medical College Dental Unit with broad clinical exposure in Conservative Dentistry and Endodontics, Paediatric Dentistry, Oral Surgery and Oral \& Maxillofacial Surgery. Completed a structured one-year dental internship while concurrently working as a part-time dentist at Palash Dental Care. Experienced in restorative treatment, root canal treatment, extractions, paediatric procedures and minor oral surgery, with exposure to hospital and operating-theatre practice. Patient-focused and committed to safe, ethical and effective dental care.
+
+\section{Education}
+\textbf{Bachelor of Dental Surgery (BDS)}\hfill 2025\\
+Rajshahi Medical College Dental Unit, Rajshahi, Bangladesh\\
+\textbf{Achievement:} Achieved the second-highest marks at Rajshahi Medical College Dental Unit.
+% Add professional registration details here if applicable and verified.
+
+\section{Professional Experience}
+\role{Part-Time Dentist}{September 2025 -- August 2026}{Palash Dental Care, Metropolitan Hospital, CNB More, Kazihata, Rajshahi}
+\begin{itemize}
+\item Conducted patient history taking, clinical examination, preliminary diagnosis and treatment planning under clinical supervision.
+\item Performed scaling and polishing; provided oral-hygiene and preventive dental counselling.
+\item Performed composite, glass ionomer (GI) and temporary restorations, routine dental lesion management, root canal treatment and related endodontic procedures.
+\item Performed non-surgical and surgical tooth extractions, suturing and postoperative care, including dry socket management.
+\item Participated in apicectomy, periodontal and prosthodontic procedures; assisted senior clinicians with complex cases.
+\item Maintained appropriate infection-control practices throughout patient care.
+\end{itemize}
+\vspace{3pt}
+\role{Intern Doctor -- Dental Unit}{9 August 2025 -- 8 August 2026}{Rajshahi Medical College, Rajshahi, Bangladesh}
+\begin{itemize}
+\item Completed rotations with broad exposure to Conservative Dentistry, Endodontics, Paediatric Dentistry, Oral Surgery and Oral \& Maxillofacial Surgery.
+\item Performed composite and GI restorations, temporary fillings, dental lesion management, root canal treatment and paediatric pulpectomy/RCT.
+\item Performed primary and permanent tooth extractions and provided postoperative management.
+\item Performed arch bar, eyelet and direct dental wiring for selected dental/maxillofacial fracture cases.
+\item Performed post-surgical suturing, dry socket management, biopsy procedures and intralesional injections for selected oral white lesions.
+\item Participated in management of selected oral conditions, including trigeminal neuralgia, under clinical supervision.
+\item Assisted in operating-theatre cases involving mandibular fractures, impacted canine surgery, flap reconstruction and oral squamous cell carcinoma.
+\item Assisted in general surgical procedures including splenectomy, perianal abscess surgery, Fournier's gangrene management, diabetic foot surgery and mass closure.
+\item Performed urinary catheterization and nasogastric tube insertion independently after initial supervised training.
+\end{itemize}
+
+\newpage
+\section{Clinical Competencies}
+\skill{Conservative Dentistry \& Endodontics}{Root canal treatment and related endodontic procedures; composite and GI restorations; temporary fillings; dental lesion management.}
+\skill{Paediatric Dentistry}{Primary-tooth extraction; pulpectomy; paediatric RCT; paediatric patient management.}
+\skill{Oral Surgery \& Maxillofacial Care}{Non-surgical and surgical extraction; arch bar and eyelet wiring; direct dental wiring for selected fractures; suturing; dry socket management; biopsy procedures; intralesional injections for selected oral white lesions; apicectomy assistance.}
+\skill{Preventive \& Diagnostic Care}{Scaling and polishing; dental radiographic assessment; patient counselling; oral-hygiene education.}
+\skill{Hospital \& Clinical Skills}{Urinary catheterization; nasogastric tube insertion; operating-theatre assistance; aseptic and perioperative clinical practice.}
+
+\section{Research \& Academic Projects}
+\textbf{Final-Year Mini Research Project}\\
+``A Study on Knowledge of Preventive Measures for Dental Caries Among School Children.'' Study location: Paba, Rajshahi, Bangladesh.
+
+\textbf{Dental Public Health Poster}\\
+Menstrual Hygiene.
+
+\section{Achievements \& Certifications}
+\begin{itemize}
+\item 2nd Runner-Up -- Internet Generation (i-Gen) Competition, Grameenphone \& Prothom Alo.
+\end{itemize}
+
+\section{Digital Skills \& Languages}
+\textbf{Digital skills:} Microsoft Word, Microsoft PowerPoint, Canva, digital presentation design and PDF/document handling.\\[3pt]
+\textbf{Languages:} Bengali -- Native; English -- Professional working proficiency; Hindi -- Conversational proficiency.
+
+\section{Personal Information}
+\begin{tabularx}{\textwidth}{@{}p{35mm}X@{}}
+Date of birth & 05 July 2002\\
+Present address & Altafunnesa Park Lane, Jaleswaritala, Bogura Sadar, Bogura\\
+Permanent address & Same as present address\\
+Nationality & Bangladeshi\\
+Gender & Female\\
+Marital status & Married\\
+Religion & Islam
+\end{tabularx}
+
+\section{Professional Referees}
+\begin{tabularx}{\textwidth}{@{}X@{\hspace{9mm}}X@{}}
+\textbf{Referee 1} & \textbf{Referee 2}\\[4pt]
+Name: \hrulefill & Name: \hrulefill\\[6pt]
+Designation: \hrulefill & Designation: \hrulefill\\[6pt]
+Institution: \hrulefill & Institution: \hrulefill\\[6pt]
+Contact: \hrulefill & Contact: \hrulefill
+\end{tabularx}
+\end{document}
